@@ -1,5 +1,5 @@
 {
-  "name": "juev-ghost-theme",
+  "name": "pm-ghost-theme",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Juev/juev-ghost-theme.git"
+    "url": "https://github.com/facetheheat/pm-ghost-theme.git"
   },
   "author": "Denis Evsyukov <denis@evsyukov.org>",
   "license": "ISC",
