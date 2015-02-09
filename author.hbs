@@ -6,7 +6,6 @@
     <header class="main-header author-head {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
         <nav class="main-nav overlay clearfix">
             <a class="back-button icon-arrow-left" href="{{@blog.url}}">Блог</a>
-            <a class="subscribe-button icon-feed" href="{{url}}rss/">{{name}}</a>
         </nav>
     </header>
     <section class="author-profile inner">
@@ -20,7 +19,7 @@
         <div class="author-meta">
             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-            <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
+            <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='Заметок нет' singular='% заметка' plural='% заметок'}}</span>
         </div>
     </section>
 {{/author}}
